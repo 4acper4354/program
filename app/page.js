@@ -1,7 +1,7 @@
 'use client'
 import {useState} from 'react'
 import Image from 'next/image'
-import ProductCard from '@/Components/ProductCard'
+import ProductCard from '../Components/ProductCard'
 import dataProducts from '@/Components/Data'
 import SwpierBox from '@/Components/SwpierBox'
 import biurka from "@/images/biurka.jpg"
