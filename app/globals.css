@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+body {
+    font-family: 'DM Sans',sans-serif;
+}
+::-webkit-scrollbar {
+    width: 10px; /* Szerokość paska przewijania */
+    height: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Kolor tła ścieżki paska przewijania */
+}
+::-webkit-scrollbar-thumb {
+    background-color: gray; /* Kolor paska przewijania */
+    border-radius: 6px; /* Zaokrąglenie rogów paska przewijania */
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: darkgray; /* Kolor paska przewijania po najechaniu myszą */
+}  
+  
+.dropdown:hover .dropdown-content {display: block;}
+.efect {
+    transition: filter 0.3s ease
+}
+.efect:hover {
+    filter: brightness(70%);
+}
